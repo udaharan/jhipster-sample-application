@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.github.udaharan.jhipster",
+    "packageFolder": "io/github/udaharan/jhipster",
+    "serverPort": 8081,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "cassandra",
+    "devDatabaseType": "cassandra",
+    "prodDatabaseType": "cassandra",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.2",
+    "jwtSecretKey": "NjhmMGFhNzRiMjIwNjA2YWI1MjlhYWFhNjhhY2UzOGFmYTAwYTYzYWMwYjlmMGY2NjIyZDc5MTUzNDQ1M2EzZmU2N2IyNWFhNjAxNTUyNGVkMTYzNDIzZTM1YmQ1YmFlOTc2NjRiNjk3NDFjODk4NTM0ZGZiZTM0NmY1ZWY5NjI=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "udaharan",
+  "repository-name": "jhipster-sample-application"
+}
